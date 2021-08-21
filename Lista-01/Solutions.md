@@ -72,3 +72,15 @@ P_{MAX} &= 2000 W \\
 $
 
 ----
+<h3>1.D)</h3>
+
+A potência demandada pela barra de carga é calculada pela equação abaixa:
+
+$
+\begin{aligned}
+S_2 &= \hat{E_2}*\hat{I}^* \\
+&= -999,99 -j267,95 VA \\
+\end{aligned}
+$
+
+----
