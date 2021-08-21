@@ -1,7 +1,7 @@
 #
 >Análise de Sistemas de Energia Elétrica
 >
->José Lucas Damasceno Holanda
+>Desenvolvido por José Lucas Damasceno Holanda
 #
 
 <h1>Lista de Exercícios Nº 1</h1>
@@ -9,7 +9,10 @@
 
 ![Questão 01](Fig01.PNG "Questão 01")
 
+----
+
 Segue, a seguir, a solução da primeira questão:
+
 
 <h3>1.A)</h3>
 
@@ -39,6 +42,7 @@ $
 
 Com isso, sendo o sentido da corrente saindo da fonte $\hat{E_1}$ e a potência ativa com sinal positivo, esta fonte de tensão está fornecendo tensão para o sistema que contém uma impedância em série com a fonte de tensão $\hat{E_2}$.
 
+----
 <h3>1.B)</h3>
 
 Para determinar as potências P e Q absorvidas pela impedância utilizam-se as tensões das fontes e a corrente obtida no item 1.a)
@@ -53,4 +57,18 @@ Q_Z &= 535,89 var\\
 \end{aligned}
 $
 
+
+----
 <h3>1.C)</h3>
+
+Considerando que a diferença angular entre as fontes $\hat{E_1}$ e $\hat{E_2}$ é igual ou próxima de zero, pode-se utilizar a seguinte consideração para calcular a máxima potência transferível da Fonte 1 para a Fonte 2:
+
+$
+\begin{aligned}
+P_{MAX} &= \frac{E_1E_2}{X} \\
+&=\frac{100*100}{5} \\
+P_{MAX} &= 2000 W \\
+\end{aligned}
+$
+
+----
