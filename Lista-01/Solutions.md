@@ -130,12 +130,20 @@ $$
 ----
 <h3>2.A)</h3>
 
+Considerando a função $cos(\omega t)$ como referência, obteve-se os fasores de tensão e de corrente do motor:
+
+$$
+\begin{align*}
+rascunho
+\end{align*}
+$$
+
 
 
 ----
 $$
-\begin{aligned}
+\begin{align*}
 rascunho
-\end{aligned}
+\end{align*}
 $$
 
