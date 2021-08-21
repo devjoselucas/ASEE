@@ -84,3 +84,51 @@ S_2 &= \hat{E_2}*\hat{I}^* \\
 $
 
 ----
+<h3>1.E)</h3>
+
+Considerando a inserção de um capacitor de 2,5 $\Omega$ em série com a reatância indutiva da linha, obteve-se primeiro a corrente do novo sistema por meio de:
+
+$$
+\begin{aligned}
+-\hat{E_1} +\hat{I}(j5 -j2,5) + \hat{E_2} &= 0 \\
+\hat{I} &= \frac{\hat{E_1}-\hat{E_2}}{j2,5} \\
+&= -20 -j5,3589 A \\
+&= 20,7055 \angle-165 \degree A \\
+\end{aligned}
+$$
+
+Logo em seguida, calcula-se as componentes da potência aparente da nova impedância da linha:
+
+$$
+\begin{aligned}
+S_Z &= (\hat{E_1}-\hat{E_2})\hat{I}^* \\
+    &= 1071,7955\angle 90\degree VA \\
+    &= 0 + j1071,7955 VA
+\end{aligned}
+$$
+
+Por conseguinte, considerando que a abertura angular entre as duas fontes de tensão é a menor possível, calcula-se a máxima transferências de potência por meio de:
+
+$$
+\begin{aligned}
+P_{MAX} &= \frac{100*100}{2,5} \\
+        &= 4000 W
+\end{aligned}
+$$
+
+Por fim, Calcula-se a potência demandada na fonte de carga:
+
+$$
+\begin{aligned}
+S_2 &= (100\angle 30\degree)\hat{I}^* \\
+    &= -1999,99 - j535,89 VA \\
+    &= 2070,55\angle -165\degree VA
+\end{aligned}
+$$
+
+----
+$$
+\begin{aligned}
+rascunho
+\end{aligned}
+$$
