@@ -7,6 +7,7 @@
 <h1>Lista de Exercícios Nº 1</h1>
 
 
+
 ![Questão 01](Fig01.PNG "Questão 01")
 
 ----
@@ -127,8 +128,14 @@ S_2 & = (100\angle 30\degree)\hat{I}^* \\
 $$
 
 ----
+<h3>2.A)</h3>
+
+
+
+----
 $$
 \begin{aligned}
 rascunho
 \end{aligned}
 $$
+
