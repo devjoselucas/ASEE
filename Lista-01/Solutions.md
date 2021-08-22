@@ -164,4 +164,4 @@ Calculando a corrente em pu:
 
 ----
 
->Em caso de necessidade de correções, entrar em contato vai github ou via e-mail jose.holanda@ee.ufcg.edu.br
+>Em caso de necessidade de correções, entrar em contato via github ou via e-mail jose.holanda@ee.ufcg.edu.br
