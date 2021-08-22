@@ -1,9 +1,9 @@
-#
->Análise de Sistemas de Energia Elétrica
->
->Desenvolvido por José Lucas Damasceno Holanda
-#
+### AVISO - ESTE ARQUIVO SÓ É VISUALIZADO COM VScode 
 
+----
+###### Análise de Sistemas de Energia Elétrica
+###### Desenvolvido por José Lucas Damasceno Holanda  
+----
 <h1>Lista de Exercícios Nº 1</h1>
 
 
@@ -131,7 +131,7 @@ $$
 
 ![Questão 02](Fig02.PNG "Questão 02")
 
-
+----
 
 Segue, a seguir, a solução da primeira questão: 
 
@@ -149,11 +149,3 @@ $$
 rascunho
 \end{align*}
 $$
-
-$$
-\begin{align*}
-\sum_{i = 1}^{n} | (f + g )(x_i) - (f + g)(x_{i-1}) | &= \sum_{i = 1}^{n} | \{ f(x_i) + g(x_i) \} - \{ f(x_{i - 1} + g(x_{i-1}) \} |
-\\  &\leq \sum_{i = 1}^{n} | f(x_i) - f(x_{i - 1} | + \sum_{i = 1}^{n} | g(x_i) - g(x_{i - 1})|
-\\  &\leq  V(f, P) + V(g, P)
-\end{align*}
-$$ 
