@@ -25,7 +25,7 @@ $
 -\hat{E_1} +\hat{I}Z +\hat{E_2}  & = 0 \\
 \hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{Z} \\
 \hat {I} & = \frac{100\angle 0\degree - 100\angle 30\degree}{5j} \\
-\hat {I} & = 10, 35 \angle-165\degree  A\\
+\hat {I} & = 10, 35 \angle-165\degree A\\
 \end{aligned}
 $
 
@@ -37,7 +37,7 @@ $
 \begin{aligned}
 S_1 & = -\hat{E_1}*\hat{I}^* \\
 S_1 & = 999,  99 - j267, 95 \\
-S_1 & = 1035, 27\angle-15\degree  VA \\
+S_1 & = 1035, 27\angle-15\degree & VA \\
 \end{aligned}
 $
 
@@ -53,8 +53,8 @@ $
 S_Z & = (\hat{E_1}-\hat{E_2})\hat{I}^* \\
 S_Z & = 0 + j535, 6 \\
 S_Z & = P_Z + jQ_Z \\
-P_Z & = 0 W \\
-Q_Z & = 535,      89 var\\
+P_Z & = 0 && W \\
+Q_Z & = 535,89 && var\\
 \end{aligned}
 $
 
@@ -80,7 +80,7 @@ A potência demandada pela barra de carga é calculada pela equação abaixa:
 $
 \begin{aligned}
 S_2 & = \hat{E_2}*\hat{I}^* \\
-    & = -999, 99 -j267, 95 VA \\
+    & = -999, 99 -j267, 95 && VA \\
 \end{aligned}
 $
 
@@ -93,8 +93,8 @@ $$
 \begin{aligned}
 -\hat{E_1} +\hat{I}(j5 -j2,5) + \hat{E_2} & = 0 \\
  \hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{j2,5} \\
-          & = -20 -j5, 3589 A \\
-          & = 20,7055\angle-165\degree A \\
+          & = -20 -j5, 3589 && A \\
+          & = 20,7055\angle-165\degree && A \\
 \end{aligned}
 $$
 
@@ -103,8 +103,8 @@ Logo em seguida, calcula-se as componentes da potência aparente da nova impedâ
 $$
 \begin{aligned}
 S_Z & = (\hat{E_1}-\hat{E_2})\hat{I}^* \\
-    & = 1071,7955\angle 90\degree VA \\
-    & = 0 + j1071, 7955 VA
+    & = 1071,7955\angle 90\degree && VA \\
+    & = 0 + j1071, 7955 && VA
 \end{aligned}
 $$
 
@@ -122,8 +122,8 @@ Por fim, Calcula-se a potência demandada na fonte de carga:
 $$
 \begin{aligned}
 S_2 & = (100\angle 30\degree)\hat{I}^* \\
-    & = -1999, 99 - j535, 89 VA \\
-    & = 2070,  55\angle -165\degree VA
+    & = -1999, 99 - j535, 89 && VA \\
+    & = 2070,  55\angle -165\degree && VA
 \end{aligned}
 $$
 
@@ -143,9 +143,9 @@ Considerando a função $\cos(\omega t)$ como referência, obteve-se os fasores 
 
 $$
 \begin{align*}
-V_a(t) &= 311,11\sin(\omega t) V \\  
-V_a(t) &= 220\sin(\omega t) V_{rms}\\
-V_a(t) &= 220\cos(\omega t -90\degree) V_{rms}\\
+V_a(t) &= 311,11\sin(\omega t) && V \\  
+V_a(t) &= 220\sin(\omega t) && V_{rms}\\
+V_a(t) &= 220\cos(\omega t -90\degree) && V_{rms}\\
 \end{align*}
 $$
 
@@ -154,11 +154,24 @@ Com isso, admitindo a referência citada acima, obtém-se o valor referenciado p
 
 $$
 \begin{align*}
-I_a(t) &= 141,42\cos(\omega t -30\degree) A \\  
-I_a(t) &= 99,99\cos(\omega t - 30\degree) A_{rms}\\
-I_a(t) &= 99,99\cos(\omega t -120\degree) A_{rms}\\
+I_a(t) &= 141,42\cos(\omega t -30\degree) &&A \\  
+I_a(t) &= 99,99\cos(\omega t - 30\degree) && A_{rms}\\
+I_a(t) &= 99,99\cos(\omega t -120\degree) && A_{rms}\\
 \end{align*}
 $$
+
+----
+<h3>2.B)</h3>
+
+Para obter a impedância equivalente, considerando a carga em Y, têm-se:
+
+$$
+\begin{align*}
+Z_Y &= \frac{\hat{V_a}}{\hat{I_a}} &&\Omega \\
+Z_Y &= 2,2\angle 30\degree &&\Omega
+\end{align*}
+$$
+
 
 
 ----
