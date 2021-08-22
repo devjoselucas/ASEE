@@ -145,14 +145,23 @@ Calculando a corrente em pu:
 ----
 <h3>2.D)</h3>
 
+Calculando e obtendo a impedância e a corrente em sistema por unidade no novo sistema base:
 
+<p align="center">
+    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;|Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|}&space;&&\Omega\\&space;&=&space;1,25&space;&&\Omega\\&space;Z_{Y_{pu}}&space;&=&space;\frac{Z_Y}{|Z_{base}|}&space;&&pu\\&space;Z_{Y_{pu}}&space;&=&space;\frac{2,2\angle&space;30\degree}{1,25}&space;&&pu&space;\\&space;Z_{Y_{pu}}&space;&=&space;1,76\angle&space;30\degree&space;&&pu&space;\end{align*}" title="\begin{align*} |Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|} &&\Omega\\ &= 1,25 &&\Omega\\ Z_{Y_{pu}} &= \frac{Z_Y}{|Z_{base}|} &&pu\\ Z_{Y_{pu}} &= \frac{2,2\angle 30\degree}{1,25} &&pu \\ Z_{Y_{pu}} &= 1,76\angle 30\degree &&pu \end{align*}" />
+</p>
+
+
+Calculando a tensão em pu:
+<p align="center">
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\hat{V_a}&space;&=&space;\frac{220\angle&space;-90\degree}{250/\sqrt{3}}&space;&&pu\\&space;\hat{V_a}&space;&=&space;1,5242\angle&space;-90\degree&space;&&pu\\&space;\end{aligned}" title="\begin{aligned} \hat{V_a} &= \frac{220\angle -90\degree}{250/\sqrt{3}} &&pu\\ \hat{V_a} &= 1,5242\angle -90\degree &&pu\\ \end{aligned}" />
+</p>
+
+Calculando a corrente em pu:
+<p align="center">
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\hat{I_a}&space;&=&space;\frac{1,5242\angle&space;-90\degree}{1,76\angle&space;30\degree}&space;&&pu\\&space;\hat{I_a}&space;&=&space;0,8660\angle&space;-120\degree&space;&&pu\\&space;\end{aligned}" title="\begin{aligned} \hat{I_a} &= \frac{1,5242\angle -90\degree}{1,76\angle 30\degree} &&pu\\ \hat{I_a} &= 0,8660\angle -120\degree &&pu\\ \end{aligned}" />
+</p>
 
 ----
-$$
-\begin{align*}
-rascunho
-\end{align*}
-$$
 
-
-
+>Em caso de necessidade de correções, entrar em contato vai github ou via e-mail jose.holanda@ee.ufcg.edu.br
