@@ -23,9 +23,9 @@ Nesta questão, deve-se encontrar o valor de $\hat{I}$, assumindo que possui mes
 $
 \begin{aligned}
 -\hat{E_1} +\hat{I}Z +\hat{E_2}  & = 0 \\
-\hat {I} &                         = \frac{\hat{E_1}-\hat{E_2}}{Z} \\
-\hat {I} &                         = \frac{100\angle 0\degree - 100\angle 30\degree}{5j} \\
-\hat {I} &                         = 10, 35 \angle-165\degree  A\\
+\hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{Z} \\
+\hat {I} & = \frac{100\angle 0\degree - 100\angle 30\degree}{5j} \\
+\hat {I} & = 10, 35 \angle-165\degree  A\\
 \end{aligned}
 $
 
@@ -132,12 +132,6 @@ $$
 
 Considerando a função $cos(\omega t)$ como referência, obteve-se os fasores de tensão e de corrente do motor:
 
-$$
-\begin{align*}
-rascunho
-\end{align*}
-$$
-
 
 
 ----
@@ -146,4 +140,10 @@ $$
 rascunho
 \end{align*}
 $$
+
+
+$$-\hat{E_1} +\hat{I}Z +\hat{E_2} = 0 $$  
+$$\hat {I} = \frac{\hat{E_1}-\hat{E_2}}{Z} $$  
+$$\hat {I} = \frac{100\angle 0\degree - 100\angle 30\degree}{5j}$$  
+$$\hat {I} = 10, 35 \angle-165\degree  A$$  
 
