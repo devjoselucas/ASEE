@@ -1,4 +1,3 @@
-### >>>> ESTE ARQUIVO SÓ É VISUALIZADO COM VScode 
 
 ----
 ###### Análise de Sistemas de Energia Elétrica
