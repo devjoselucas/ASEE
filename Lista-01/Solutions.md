@@ -172,7 +172,28 @@ Z_Y &= 2,2\angle 30\degree &&\Omega
 \end{align*}
 $$
 
+----
+<h3>2.C)</h3>
 
+Calculando e obtendo a impedância e a corrente em sistema por unidade:
+
+$$
+\begin{align*}
+|Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|} &&\Omega\\
+&= 7,22 &&\Omega\\
+Z_{Y_{pu}} &= \frac{Z_Y}{|Z_{base}|} &&pu\\
+Z_{Y_{pu}} &= \frac{2,2\angle 30\degree}{7,22} &&pu \\
+Z_{Y_{pu}} &= 0,30\angle 30\degree &&pu
+\end{align*}
+$$
+
+Calculando a corrente em pu:
+$$
+\begin{aligned}
+\hat{I_a} &=  \frac{1\angle -90\degree}{Z_{Y_{pu}}} &&pu\\
+\hat{I_a} &=  3,2818\angle -120\degree &&pu\\
+\end{aligned}
+$$
 
 ----
 $$
@@ -180,5 +201,3 @@ $$
 rascunho
 \end{align*}
 $$
-
-
