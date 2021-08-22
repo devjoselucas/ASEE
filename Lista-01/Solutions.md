@@ -139,8 +139,26 @@ Segue, a seguir, a solução da primeira questão:
 
 <h3>2.A)</h3>
 
-Considerando a função $cos(\omega t)$ como referência, obteve-se os fasores de tensão e de corrente do motor:
+Considerando a função $\cos(\omega t)$ como referência, obteve-se os fasores de tensão e de corrente do motor:
 
+$$
+\begin{align*}
+V_a(t) &= 311,11\sin(\omega t) V \\  
+V_a(t) &= 220\sin(\omega t) V_{rms}\\
+V_a(t) &= 220\cos(\omega t -90\degree) V_{rms}\\
+\end{align*}
+$$
+
+Com isso, admitindo a referência citada acima, obtém-se o valor referenciado para a corrente:
+
+
+$$
+\begin{align*}
+I_a(t) &= 141,42\cos(\omega t -30\degree) A \\  
+I_a(t) &= 99,99\cos(\omega t - 30\degree) A_{rms}\\
+I_a(t) &= 99,99\cos(\omega t -120\degree) A_{rms}\\
+\end{align*}
+$$
 
 
 ----
@@ -149,3 +167,5 @@ $$
 rascunho
 \end{align*}
 $$
+
+
