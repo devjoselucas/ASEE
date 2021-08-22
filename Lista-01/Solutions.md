@@ -127,7 +127,16 @@ S_2 & = (100\angle 30\degree)\hat{I}^* \\
 \end{aligned}
 $$
 
-----
+
+
+![Questão 02](Fig02.PNG "Questão 02")
+
+
+
+Segue, a seguir, a solução da primeira questão: 
+
+
+
 <h3>2.A)</h3>
 
 Considerando a função $cos(\omega t)$ como referência, obteve-se os fasores de tensão e de corrente do motor:
@@ -141,9 +150,10 @@ rascunho
 \end{align*}
 $$
 
-
-$$-\hat{E_1} +\hat{I}Z +\hat{E_2} = 0 $$  
-$$\hat {I} = \frac{\hat{E_1}-\hat{E_2}}{Z} $$  
-$$\hat {I} = \frac{100\angle 0\degree - 100\angle 30\degree}{5j}$$  
-$$\hat {I} = 10, 35 \angle-165\degree  A$$  
-
+$$
+\begin{align*}
+\sum_{i = 1}^{n} | (f + g )(x_i) - (f + g)(x_{i-1}) | &= \sum_{i = 1}^{n} | \{ f(x_i) + g(x_i) \} - \{ f(x_{i - 1} + g(x_{i-1}) \} |
+\\  &\leq \sum_{i = 1}^{n} | f(x_i) - f(x_{i - 1} | + \sum_{i = 1}^{n} | g(x_i) - g(x_{i - 1})|
+\\  &\leq  V(f, P) + V(g, P)
+\end{align*}
+$$ 
