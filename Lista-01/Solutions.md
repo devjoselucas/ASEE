@@ -16,21 +16,21 @@ Segue, a seguir, a solução da primeira questão:
 
 <h3>1.A)</h3>
 
-Nesta questão, deve-se encontrar o valor de $\hat{I}$, assumindo que possui mesma direção e sentido aprensentado na Figura acima. Desta forma, calcula-se $\hat{I}$ pelo método das malhas: 
+Nesta questão, deve-se encontrar o valor de <img src="https://latex.codecogs.com/svg.latex?\hat{I}" title="\hat{I}" />, assumindo que possui mesma direção e sentido aprensentado na Figura acima. Desta forma, calcula-se <img src="https://latex.codecogs.com/svg.latex?\hat{I}" title="\hat{I}" /> pelo método das malhas: 
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;-\hat{E_1}&space;&plus;\hat{I}Z&space;&plus;\hat{E_2}&space;&&space;=&space;0&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{\hat{E_1}-\hat{E_2}}{Z}&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{100\angle&space;0\degree&space;-&space;100\angle&space;30\degree}{5j}&space;\\&space;\hat&space;{I}&space;&&space;=&space;10,&space;35&space;\angle-165\degree&space;A\\&space;\end{aligned}" title="\begin{aligned} -\hat{E_1} +\hat{I}Z +\hat{E_2} & = 0 \\ \hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{Z} \\ \hat {I} & = \frac{100\angle 0\degree - 100\angle 30\degree}{5j} \\ \hat {I} & = 10, 35 \angle-165\degree A\\ \end{aligned}" />
 </p>
 
 
-Tendo o fasor de corrente, é possível calcular as potências aparentes de $\hat{E_1}$ e $\hat{E_2}$ para determinar, assumindo o sentido da corrente, qual das duas fontes é a geradora e a consumidora.
+Tendo o fasor de corrente, é possível calcular as potências aparentes de <img src="https://latex.codecogs.com/svg.latex?\hat{E_1}" title="\hat{E_1}" /> e <img src="https://latex.codecogs.com/svg.latex?\hat{E_2}" title="\hat{E_2}" /> para determinar, assumindo o sentido da corrente, qual das duas fontes é a geradora e a consumidora.
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_1&space;&&space;=&space;-\hat{E_1}*\hat{I}^*&space;\\&space;S_1&space;&&space;=&space;999,&space;99&space;-&space;j267,&space;95&space;\\&space;S_1&space;&&space;=&space;1035,&space;27\angle-15\degree&space;&&space;VA&space;\\&space;\end{aligned}" title="\begin{aligned} S_1 & = -\hat{E_1}*\hat{I}^* \\ S_1 & = 999, 99 - j267, 95 \\ S_1 & = 1035, 27\angle-15\degree & VA \\ \end{aligned}" />
 </p>
 
 
-Com isso, sendo o sentido da corrente saindo da fonte $\hat{E_1}$ e a potência ativa com sinal positivo, esta fonte de tensão está fornecendo tensão para o sistema que contém uma impedância em série com a fonte de tensão $\hat{E_2}$.
+Com isso, sendo o sentido da corrente saindo da fonte <img src="https://latex.codecogs.com/svg.latex?\hat{E_1}" title="\hat{E_1}" /> e a potência ativa com sinal positivo, esta fonte de tensão está fornecendo tensão para o sistema que contém uma impedância em série com a fonte de tensão <img src="https://latex.codecogs.com/svg.latex?\hat{E_2}" title="\hat{E_2}" />.
 
 ----
 <h3>1.B)</h3>
@@ -46,7 +46,7 @@ Para determinar as potências P e Q absorvidas pela impedância utilizam-se as t
 ----
 <h3>1.C)</h3>
 
-Considerando que a diferença angular entre as fontes $\hat{E_1}$ e $\hat{E_2}$ é igual ou próxima de zero, pode-se utilizar a seguinte consideração para calcular a máxima potência transferível da Fonte 1 para a Fonte 2: 
+Considerando que a diferença angular entre as fontes <img src="https://latex.codecogs.com/svg.latex?\hat{E_1}" title="\hat{E_1}" /> e <img src="https://latex.codecogs.com/svg.latex?\hat{E_2}" title="\hat{E_2}" />é igual ou próxima de zero, pode-se utilizar a seguinte consideração para calcular a máxima potência transferível da Fonte 1 para a Fonte 2: 
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;P_{MAX}&space;&&space;=&space;\frac{E_1E_2}{X}&space;\\&space;&&space;=&space;\frac{100*100}{5}&space;\\&space;P_{MAX}&space;&&space;=&space;2000&space;W&space;\\&space;\end{aligned}" title="\begin{aligned} P_{MAX} & = \frac{E_1E_2}{X} \\ & = \frac{100*100}{5} \\ P_{MAX} & = 2000 W \\ \end{aligned}" />
@@ -64,7 +64,7 @@ A potência demandada pela barra de carga é calculada pela equação abaixa:
 ----
 <h3>1.E)</h3>
 
-Considerando a inserção de um capacitor de 2, 5 $\Omega$ em série com a reatância indutiva da linha, obteve-se primeiro a corrente do novo sistema por meio de: 
+Considerando a inserção de um capacitor de 2, 5 <img src="https://latex.codecogs.com/svg.latex?\Omega " title="\Omega "/> em série com a reatância indutiva da linha, obteve-se primeiro a corrente do novo sistema por meio de: 
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;-\hat{E_1}&space;&plus;\hat{I}(j5&space;-j2,5)&space;&plus;&space;\hat{E_2}&space;&&space;=&space;0&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{\hat{E_1}-\hat{E_2}}{j2,5}&space;\\&space;&&space;=&space;-20&space;-j5,&space;3589&space;&&&space;A&space;\\&space;&&space;=&space;20,7055\angle-165\degree&space;&&&space;A&space;\\&space;\end{aligned}" title="\begin{aligned} -\hat{E_1} +\hat{I}(j5 -j2,5) + \hat{E_2} & = 0 \\ \hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{j2,5} \\ & = -20 -j5, 3589 && A \\ & = 20,7055\angle-165\degree && A \\ \end{aligned}" />
@@ -103,7 +103,7 @@ Segue, a seguir, a solução da primeira questão:
 
 <h3>2.A)</h3>
 
-Considerando a função $\cos(\omega t)$ como referência, obteve-se os fasores de tensão e de corrente do motor:
+Considerando a função <img src="https://latex.codecogs.com/svg.latex?\cos(\omega&space;t)" title="\cos(\omega t)" /> como referência, obteve-se os fasores de tensão e de corrente do motor:
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;V_a(t)&space;&=&space;311,11\sin(\omega&space;t)&space;&&&space;V&space;\\&space;V_a(t)&space;&=&space;220\sin(\omega&space;t)&space;&&&space;V_{rms}\\&space;V_a(t)&space;&=&space;220\cos(\omega&space;t&space;-90\degree)&space;&&&space;V_{rms}\\&space;\end{align*}" title="\begin{align*} V_a(t) &= 311,11\sin(\omega t) && V \\ V_a(t) &= 220\sin(\omega t) && V_{rms}\\ V_a(t) &= 220\cos(\omega t -90\degree) && V_{rms}\\ \end{align*}" />
