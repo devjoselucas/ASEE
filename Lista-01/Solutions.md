@@ -113,7 +113,7 @@ Considerando a função <img src="https://latex.codecogs.com/svg.latex?\cos(\ome
 Com isso, admitindo a referência citada acima, obtém-se o valor referenciado para a corrente:
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;I_a(t)&space;&=&space;141,42\cos(\omega&space;t&space;-30\degree)&space;&&A&space;\\&space;I_a(t)&space;&=&space;99,99\cos(\omega&space;t&space;-&space;30\degree)&space;&&&space;A_{rms}\\&space;I_a(t)&space;&=&space;99,99\cos(\omega&space;t&space;-120\degree)&space;&&&space;A_{rms}\\&space;\end{align*}" title="\begin{align*} I_a(t) &= 141,42\cos(\omega t -30\degree) &&A \\ I_a(t) &= 99,99\cos(\omega t - 30\degree) && A_{rms}\\ I_a(t) &= 99,99\cos(\omega t -120\degree) && A_{rms}\\ \end{align*}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;I_a(t)&space;&=&space;141,42\cos(\omega&space;t&space;-30\degree)&space;&&A&space;\\&space;I_a(t)&space;&=&space;99,99\cos(\omega&space;t&space;-&space;30\degree)&space;&&&space;A_{rms}\\&space;\end{align*}" title="\begin{align*} I_a(t) &= 141,42\cos(\omega t -30\degree) &&A \\ I_a(t) &= 99,99\cos(\omega t - 30\degree) && A_{rms}\\ \end{align*}" />
 </p>
 
 
@@ -123,23 +123,23 @@ Com isso, admitindo a referência citada acima, obtém-se o valor referenciado p
 Para obter a impedância equivalente, considerando a carga em Y, têm-se:
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;Z_Y&space;&=&space;\frac{\hat{V_a}}{\hat{I_a}}&space;&&\Omega&space;\\&space;Z_Y&space;&=&space;2,2\angle&space;30\degree&space;&&\Omega&space;\end{align*}" title="\begin{align*} Z_Y &= \frac{\hat{V_a}}{\hat{I_a}} &&\Omega \\ Z_Y &= 2,2\angle 30\degree &&\Omega \end{align*}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;Z_Y&space;&=&space;\frac{\hat{V_a}}{\hat{I_a}}&space;&&\Omega&space;\\&space;Z_Y&space;&=&space;2,2\angle&space;-60\degree&space;&&\Omega&space;\end{align*}" title="\begin{align*} Z_Y &= \frac{\hat{V_a}}{\hat{I_a}} &&\Omega \\ Z_Y &= 2,2\angle -60\degree &&\Omega \end{align*}" />
 </p>
 
 
 ----
 <h3>2.C)</h3>
 
-Calculando e obtendo a impedância e a corrente em sistema por unidade:
+Calculando e obtendo a impedância em sistema por unidade:
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;|Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|}&space;&&\Omega\\&space;&=&space;7,22&space;&&\Omega\\&space;Z_{Y_{pu}}&space;&=&space;\frac{Z_Y}{|Z_{base}|}&space;&&pu\\&space;Z_{Y_{pu}}&space;&=&space;\frac{2,2\angle&space;30\degree}{7,22}&space;&&pu&space;\\&space;Z_{Y_{pu}}&space;&=&space;0,30\angle&space;30\degree&space;&&pu&space;\end{align*}" title="\begin{align*} |Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|} &&\Omega\\ &= 7,22 &&\Omega\\ Z_{Y_{pu}} &= \frac{Z_Y}{|Z_{base}|} &&pu\\ Z_{Y_{pu}} &= \frac{2,2\angle 30\degree}{7,22} &&pu \\ Z_{Y_{pu}} &= 0,30\angle 30\degree &&pu \end{align*}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;|Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|}&space;&&\Omega\\&space;&=&space;7,22&space;&&\Omega\\&space;Z_{Y_{pu}}&space;&=&space;\frac{Z_Y}{|Z_{base}|}&space;&&pu\\&space;Z_{Y_{pu}}&space;&=&space;\frac{2,2\angle&space;-60\degree}{7,22}&space;&&pu&space;\\&space;Z_{Y_{pu}}&space;&=&space;0,30\angle&space;-60\degree&space;&&pu&space;\end{align*}" title="\begin{align*} |Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|} &&\Omega\\ &= 7,22 &&\Omega\\ Z_{Y_{pu}} &= \frac{Z_Y}{|Z_{base}|} &&pu\\ Z_{Y_{pu}} &= \frac{2,2\angle -60\degree}{7,22} &&pu \\ Z_{Y_{pu}} &= 0,30\angle -60\degree &&pu \end{align*}" />
 </p>
 
 
 Calculando a corrente em pu:
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\hat{I_a}&space;&=&space;\frac{1\angle&space;-90\degree}{Z_{Y_{pu}}}&space;&&pu\\&space;\hat{I_a}&space;&=&space;3,2818\angle&space;-120\degree&space;&&pu\\&space;\end{aligned}" title="\begin{aligned} \hat{I_a} &= \frac{1\angle -90\degree}{Z_{Y_{pu}}} &&pu\\ \hat{I_a} &= 3,2818\angle -120\degree &&pu\\ \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\hat{I_a}&space;&=&space;\frac{1\angle&space;-90\degree}{Z_{Y_{pu}}}&space;&&pu\\&space;\hat{I_a}&space;&=&space;3,2818\angle&space;-30\degree&space;&&pu\\&space;\end{aligned}" title="\begin{aligned} \hat{I_a} &= \frac{1\angle -90\degree}{Z_{Y_{pu}}} &&pu\\ \hat{I_a} &= 3,2818\angle -30\degree &&pu\\ \end{aligned}" />
 </p>
 
 ----
@@ -148,7 +148,7 @@ Calculando a corrente em pu:
 Calculando e obtendo a impedância e a corrente em sistema por unidade no novo sistema base:
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;|Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|}&space;&&\Omega\\&space;&=&space;1,25&space;&&\Omega\\&space;Z_{Y_{pu}}&space;&=&space;\frac{Z_Y}{|Z_{base}|}&space;&&pu\\&space;Z_{Y_{pu}}&space;&=&space;\frac{2,2\angle&space;30\degree}{1,25}&space;&&pu&space;\\&space;Z_{Y_{pu}}&space;&=&space;1,76\angle&space;30\degree&space;&&pu&space;\end{align*}" title="\begin{align*} |Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|} &&\Omega\\ &= 1,25 &&\Omega\\ Z_{Y_{pu}} &= \frac{Z_Y}{|Z_{base}|} &&pu\\ Z_{Y_{pu}} &= \frac{2,2\angle 30\degree}{1,25} &&pu \\ Z_{Y_{pu}} &= 1,76\angle 30\degree &&pu \end{align*}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;|Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|}&space;&&\Omega\\&space;&=&space;1,25&space;&&\Omega\\&space;Z_{Y_{pu}}&space;&=&space;\frac{Z_Y}{|Z_{base}|}&space;&&pu\\&space;Z_{Y_{pu}}&space;&=&space;\frac{2,2\angle&space;-60\degree}{1,25}&space;&&pu&space;\\&space;Z_{Y_{pu}}&space;&=&space;1,76\angle&space;-60\degree&space;&&pu&space;\end{align*}" title="\begin{align*} |Z_{base}|&=\frac{{|V_{base}|}^2}{|S_{base}|} &&\Omega\\ &= 1,25 &&\Omega\\ Z_{Y_{pu}} &= \frac{Z_Y}{|Z_{base}|} &&pu\\ Z_{Y_{pu}} &= \frac{2,2\angle -60\degree}{1,25} &&pu \\ Z_{Y_{pu}} &= 1,76\angle -60\degree &&pu \end{align*}" />
 </p>
 
 
@@ -159,7 +159,7 @@ Calculando a tensão em pu:
 
 Calculando a corrente em pu:
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\hat{I_a}&space;&=&space;\frac{1,5242\angle&space;-90\degree}{1,76\angle&space;30\degree}&space;&&pu\\&space;\hat{I_a}&space;&=&space;0,8660\angle&space;-120\degree&space;&&pu\\&space;\end{aligned}" title="\begin{aligned} \hat{I_a} &= \frac{1,5242\angle -90\degree}{1,76\angle 30\degree} &&pu\\ \hat{I_a} &= 0,8660\angle -120\degree &&pu\\ \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;\hat{I_a}&space;&=&space;\frac{1,5242\angle&space;-90\degree}{1,76\angle&space;-60\degree}&space;&&pu\\&space;\hat{I_a}&space;&=&space;0,8660\angle&space;-30\degree&space;&&pu\\&space;\end{aligned}" title="\begin{aligned} \hat{I_a} &= \frac{1,5242\angle -90\degree}{1,76\angle -60\degree} &&pu\\ \hat{I_a} &= 0,8660\angle -30\degree &&pu\\ \end{aligned}" />
 </p>
 
 ----
