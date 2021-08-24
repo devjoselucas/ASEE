@@ -16,21 +16,21 @@ Segue, a seguir, a solução da primeira questão:
 
 <h3>1.A)</h3>
 
-Nesta questão, deve-se encontrar o valor de <img src="https://latex.codecogs.com/svg.latex?\hat{I}" title="\hat{I}" />, assumindo que possui mesma direção e sentido aprensentado na Figura acima. Desta forma, calcula-se <img src="https://latex.codecogs.com/svg.latex?\hat{I}" title="\hat{I}" /> pelo método das malhas: 
+Nesta questão, deve-se encontrar o valor de <img src="https://latex.codecogs.com/svg.latex?\hat{I}" title="\hat{I}" />, assumindo que possui mesma direção e sentido contrário ao aprensentado na Figura acima. Desta forma, calcula-se <img src="https://latex.codecogs.com/svg.latex?\hat{I}" title="\hat{I}" /> pelo método das malhas: 
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;-\hat{E_1}&space;&plus;\hat{I}Z&space;&plus;\hat{E_2}&space;&&space;=&space;0&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{\hat{E_1}-\hat{E_2}}{Z}&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{100\angle&space;0\degree&space;-&space;100\angle&space;30\degree}{5j}&space;\\&space;\hat&space;{I}&space;&&space;=&space;10,&space;35&space;\angle-165\degree&space;A\\&space;\end{aligned}" title="\begin{aligned} -\hat{E_1} +\hat{I}Z +\hat{E_2} & = 0 \\ \hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{Z} \\ \hat {I} & = \frac{100\angle 0\degree - 100\angle 30\degree}{5j} \\ \hat {I} & = 10, 35 \angle-165\degree A\\ \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;-\hat{E_2}&space;&plus;\hat{I}Z&space;&plus;\hat{E_1}&space;&&space;=&space;0&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{\hat{E_2}-\hat{E_1}}{Z}&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{-100\angle&space;0\degree&space;&plus;&space;100\angle&space;30\degree}{5j}&space;\\&space;\hat&space;{I}&space;&&space;=&space;10,&space;35&space;\angle15\degree&space;A\\&space;\end{aligned}" title="\begin{aligned} -\hat{E_2} +\hat{I}Z +\hat{E_1} & = 0 \\ \hat {I} & = \frac{\hat{E_2}-\hat{E_1}}{Z} \\ \hat {I} & = \frac{-100\angle 0\degree + 100\angle 30\degree}{5j} \\ \hat {I} & = 10, 35 \angle15\degree A\\ \end{aligned}" />
 </p>
 
 
 Tendo o fasor de corrente, é possível calcular as potências aparentes de <img src="https://latex.codecogs.com/svg.latex?\hat{E_1}" title="\hat{E_1}" /> e <img src="https://latex.codecogs.com/svg.latex?\hat{E_2}" title="\hat{E_2}" /> para determinar, assumindo o sentido da corrente, qual das duas fontes é a geradora e a consumidora.
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_1&space;&&space;=&space;-\hat{E_1}*\hat{I}^*&space;\\&space;S_1&space;&&space;=&space;999,&space;99&space;-&space;j267,&space;95&space;\\&space;S_1&space;&&space;=&space;1035,&space;27\angle-15\degree&space;&&space;VA&space;\\&space;\end{aligned}" title="\begin{aligned} S_1 & = -\hat{E_1}*\hat{I}^* \\ S_1 & = 999, 99 - j267, 95 \\ S_1 & = 1035, 27\angle-15\degree & VA \\ \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_1&space;&&space;=&space;\hat{E_1}*\hat{I}^*&space;\\&space;S_1&space;&&space;=&space;999,&space;99&space;-&space;j267,&space;95&space;\\&space;S_1&space;&&space;=&space;1035,&space;27\angle-15\degree&space;&&space;VA&space;\\&space;\end{aligned}" title="\begin{aligned} S_1 & = \hat{E_1}*\hat{I}^* \\ S_1 & = 999, 99 - j267, 95 \\ S_1 & = 1035, 27\angle-15\degree & VA \\ \end{aligned}" />
 </p>
 
 
-Com isso, sendo o sentido da corrente saindo da fonte <img src="https://latex.codecogs.com/svg.latex?\hat{E_1}" title="\hat{E_1}" /> e a potência ativa com sinal positivo, esta fonte de tensão está fornecendo tensão para o sistema que contém uma impedância em série com a fonte de tensão <img src="https://latex.codecogs.com/svg.latex?\hat{E_2}" title="\hat{E_2}" />.
+Com isso, sendo o sentido da corrente entrando da fonte <img src="https://latex.codecogs.com/svg.latex?\hat{E_1}" title="\hat{E_1}" /> e a potência ativa com sinal positivo, caracteriza que esta fonte de tensão está absorvendo potência do sistema que contém uma impedância em série com a fonte de tensão <img src="https://latex.codecogs.com/svg.latex?\hat{E_2}" title="\hat{E_2}" /> que, de fato, é o gerador do sistema.
 
 ----
 <h3>1.B)</h3>
@@ -67,14 +67,14 @@ A potência demandada pela barra de carga é calculada pela equação abaixa:
 Considerando a inserção de um capacitor de 2, 5 <img src="https://latex.codecogs.com/svg.latex?\Omega " title="\Omega "/> em série com a reatância indutiva da linha, obteve-se primeiro a corrente do novo sistema por meio de: 
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;-\hat{E_1}&space;&plus;\hat{I}(j5&space;-j2,5)&space;&plus;&space;\hat{E_2}&space;&&space;=&space;0&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{\hat{E_1}-\hat{E_2}}{j2,5}&space;\\&space;&&space;=&space;-20&space;-j5,&space;3589&space;&&&space;A&space;\\&space;&&space;=&space;20,7055\angle-165\degree&space;&&&space;A&space;\\&space;\end{aligned}" title="\begin{aligned} -\hat{E_1} +\hat{I}(j5 -j2,5) + \hat{E_2} & = 0 \\ \hat {I} & = \frac{\hat{E_1}-\hat{E_2}}{j2,5} \\ & = -20 -j5, 3589 && A \\ & = 20,7055\angle-165\degree && A \\ \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;-\hat{E_2}&space;&plus;\hat{I}Z&space;&plus;\hat{E_1}&space;&&space;=&space;0&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{\hat{E_2}-\hat{E_1}}{Z}&space;\\&space;\hat&space;{I}&space;&&space;=&space;\frac{-100\angle&space;0\degree&space;&plus;&space;100\angle&space;30\degree}{2,5j}&space;\\&space;\hat&space;{I}&space;&&space;=&space;20,71&space;\angle15\degree&space;A\\&space;\end{aligned}" title="\begin{aligned} -\hat{E_2} +\hat{I}Z +\hat{E_1} & = 0 \\ \hat {I} & = \frac{\hat{E_2}-\hat{E_1}}{Z} \\ \hat {I} & = \frac{-100\angle 0\degree + 100\angle 30\degree}{2,5j} \\ \hat {I} & = 20,71 \angle15\degree A\\ \end{aligned}" />
 </p>
 
 
 Logo em seguida, calcula-se as componentes da potência aparente da nova impedância da linha: 
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_Z&space;&&space;=&space;(\hat{E_1}-\hat{E_2})\hat{I}^*&space;\\&space;&&space;=&space;1071,7955\angle&space;90\degree&space;&&&space;VA&space;\\&space;&&space;=&space;0&space;&plus;&space;j1071,&space;7955&space;&&&space;VA&space;\end{aligned}" title="\begin{aligned} S_Z & = (\hat{E_1}-\hat{E_2})\hat{I}^* \\ & = 1071,7955\angle 90\degree && VA \\ & = 0 + j1071, 7955 && VA \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_Z&space;&&space;=&space;(\hat{E_2}-\hat{E_1})\hat{I}^*&space;\\&space;&&space;=&space;1071,7955\angle&space;90\degree&space;&&&space;VA&space;\\&space;&&space;=&space;0&space;&plus;&space;j1071,&space;7955&space;&&&space;VA&space;\end{aligned}" title="\begin{aligned} S_Z & = (\hat{E_2}-\hat{E_1})\hat{I}^* \\ & = 1071,7955\angle 90\degree && VA \\ & = 0 + j1071, 7955 && VA \end{aligned}" />
 </p>
 
 
@@ -85,10 +85,10 @@ Por conseguinte, considerando que a abertura angular entre as duas fontes de ten
 </p>
 
 
-Por fim, Calcula-se a potência demandada na fonte de carga: 
+Por fim, Calcula-se a potência demandada na barra de carga: 
 
 <p align="center">
-    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_2&space;&&space;=&space;(100\angle&space;30\degree)\hat{I}^*&space;\\&space;&&space;=&space;-1999,&space;99&space;-&space;j535,&space;89&space;&&&space;VA&space;\\&space;&&space;=&space;2070,&space;55\angle&space;-165\degree&space;&&&space;VA&space;\end{aligned}" title="\begin{aligned} S_2 & = (100\angle 30\degree)\hat{I}^* \\ & = -1999, 99 - j535, 89 && VA \\ & = 2070, 55\angle -165\degree && VA \end{aligned}" />
+    <img src="https://latex.codecogs.com/svg.latex?\begin{aligned}&space;S_1&space;&&space;=&space;(100\angle&space;0\degree)\hat{I}^*&space;\\&space;&&space;=&space;1999,&space;99&space;-&space;j535,&space;89&space;&&&space;VA&space;\\&space;&&space;=&space;2070,&space;55\angle&space;-15\degree&space;&&&space;VA&space;\end{aligned}" title="\begin{aligned} S_1 & = (100\angle 0\degree)\hat{I}^* \\ & = 1999, 99 - j535, 89 && VA \\ & = 2070, 55\angle -15\degree && VA \end{aligned}" />
 </p>
 
 ----
