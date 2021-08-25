@@ -43,7 +43,7 @@ Segue, a seguir, a solução da questão 1.12:
 
 ----
 ![Questão 1.13](113.PNG "Questão 1.13")
-<h3>1.13</h3>
+
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;\hat{V_{ca}}&space;&=&space;\hat{V_{c}}-\hat{V_{a}}&space;=&space;208\angle&space;0\degree&space;V&space;\\&space;&=&space;\frac{208\angle&space;-30\degree&space;-&space;208\angle&space;-150\degree}{\sqrt{3}}&space;\\&space;\end{align*}" title="\begin{align*} \hat{V_{ca}} &= \hat{V_{c}}-\hat{V_{a}} = 208\angle 0\degree V \\ &= \frac{208\angle -30\degree - 208\angle -150\degree}{\sqrt{3}} \\ \end{align*}" />
@@ -56,16 +56,16 @@ Segue, a seguir, a solução da questão 1.12:
 
 ----
 ![Questão 1.16](116.PNG "Questão 1.16")
-<h3>1.16</h3>
+
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;P&space;&=&space;\frac{0,7457*hp*carga}{\eta}&space;kW&space;\\&space;P&space;&=&space;12,43&space;kW&space;\\&space;S&space;&=&space;P&space;&plus;&space;jQ&space;,&space;Q&space;=&space;S*\sin{\phi}&space;\\&space;S&space;&=&space;12,43&space;&plus;j9,02&space;kVA&space;\end{align*}" title="\begin{align*} P &= \frac{0,7457*hp*carga}{\eta} kW \\ P &= 12,43 kW \\ S &= P + jQ , Q = S*\sin{\phi} \\ S &= 12,43 +j9,02 kVA \end{align*}" />
 </p>
-----
+
 
 ----
 ![Questão 1.18](118.PNG "Questão 1.18")
-<h3>1.18</h3>
+
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;Z_{Yeq}&space;&=&space;\frac{Z_1*Z_2}{Z_1&plus;Z_2}&space;\\&space;&=&space;3,41&space;&plus;&space;j0,73&space;\\&space;&=&space;3,49\angle&space;12,09\degree&space;\\&space;Z_{total}&space;&=&space;2&space;&plus;&space;j5&space;&plus;&space;Z_{Yeq}&space;\\&space;&=&space;7,88\angle&space;46,63\degree\\&space;|\hat{I_{a}}|&space;&=&space;\frac{|\hat{V_{an}}|}{Z_{total}}&space;\\&space;&=&space;8,05&space;A&space;\end{align*}" title="\begin{align*} Z_{Yeq} &= \frac{Z_1*Z_2}{Z_1+Z_2} \\ &= 3,41 + j0,73 \\ &= 3,49\angle 12,09\degree \\ Z_{total} &= 2 + j5 + Z_{Yeq} \\ &= 7,88\angle 46,63\degree\\ |\hat{I_{a}}| &= \frac{|\hat{V_{an}}|}{Z_{total}} \\ &= 8,05 A \end{align*}" />
@@ -79,7 +79,7 @@ Segue, a seguir, a solução da questão 1.12:
 
 ----
 ![Questão 1.19](119.PNG "Questão 1.19")
-<h3>1.19</h3>
+
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;S'&space;&=&space;\frac{250}{0,707}&space;=&space;353,61&space;&kVA\\&space;Q'&space;&=&space;\sqrt{S'^2&space;-&space;250^2}&space;=&space;250,08&space;&kvar&space;\\&space;Q&space;&=&space;Q'&space;-&space;Q_c&space;\\&space;Q&space;&=&space;250,08&space;-&space;60&space;=&space;190,08&space;&kvar\\&space;fp_{novo}&space;&=&space;\frac{250}{\sqrt{250^2&space;&plus;&space;Q^2}}&space;=&space;0,796&space;&at&space;\end{align*}" title="\begin{align*} S' &= \frac{250}{0,707} = 353,61 &kVA\\ Q' &= \sqrt{S'^2 - 250^2} = 250,08 &kvar \\ Q &= Q' - Q_c \\ Q &= 250,08 - 60 = 190,08 &kvar\\ fp_{novo} &= \frac{250}{\sqrt{250^2 + Q^2}} = 0,796 &at \end{align*}" />
@@ -91,7 +91,7 @@ Segue, a seguir, a solução da questão 1.12:
 
 ----
 ![Questão 1.22](122.PNG "Questão 1.22")
-<h3>1.22</h3>
+
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;Z&space;&=&space;\frac{V^2}{S}&space;=&space;0,968&space;&\Omega\\&space;X&space;&=&space;1,1Z&space;=&space;1,065&space;&\Omega&space;\end{align*}" title="\begin{align*} Z &= \frac{V^2}{S} = 0,968 &\Omega\\ X &= 1,1Z = 1,065 &\Omega \end{align*}" />
@@ -100,7 +100,7 @@ Segue, a seguir, a solução da questão 1.12:
 
 ----
 ![Questão 1.23](123.PNG "Questão 1.23")
-<h3>1.23</h3>
+
 
 <p align="center">
     <img src="https://latex.codecogs.com/svg.latex?\begin{align*}&space;Z_{novo}&space;&=&space;1,1(\frac{22}{20})^2\frac{100}{500}&space;=&space;0,2662&space;&pu&space;\end{align*}" title="\begin{align*} Z_{novo} &= 1,1(\frac{22}{20})^2\frac{100}{500} = 0,2662 &pu \end{align*}" />
